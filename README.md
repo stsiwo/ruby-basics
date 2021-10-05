@@ -74,6 +74,10 @@ option2) create manually with migration command
 
 ref: [official_api](https://api.rubyonrails.org/v6.1.4/classes/ActiveRecord/Associations/ClassMethods.html#method-i-has_and_belongs_to_many)
 
+### diff btw 'dependent: destory' and 'on_XXX :cascade'
+
+ref: [stackoverflow](https://stackoverflow.com/questions/12556614/rails-delete-cascade-vs-dependent-destroy)
+
 ## Errors
 
 ### gem install mysql2 failed on ubuntu
