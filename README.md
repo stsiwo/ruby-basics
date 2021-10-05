@@ -38,7 +38,13 @@ The main difference is that Rubygems (invoked with the command gem) manages all 
 
 ref: [this](https://stackoverflow.com/questions/20224855/what-is-the-difference-between-bundle-update-and-gem-update/20224856)
 
-### composite primary keys on table
+### composite primary keys on table (many-to-many)
+
+0. install [this](https://rubygems.org/gems/composite_primary_keys) to your bundle
+1. add self.primary_keys = :YOUR_KEY1, :YOUR_KEY2 (model)
+2. add bleongs_to to each column (model)
+3. add add_foreign_key to each column (migration)
+4. add execute 'alter table xxx add primary key (key1, key2) (migration)
 
 ref: [this](https://stackoverflow.com/questions/12746280/define-a-unique-primary-key-based-on-2-columns)
 
