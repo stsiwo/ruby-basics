@@ -2,7 +2,7 @@
 
 ## How configure env for ruby project
 
-see (this)[https://www.honeybadger.io/blog/rbenv-rubygems-bundler-path/]
+see [this](https://www.honeybadger.io/blog/rbenv-rubygems-bundler-path/)
 
 ## rbenv 
 
