@@ -44,4 +44,18 @@ ref: [this](https://stackoverflow.com/questions/20224855/what-is-the-difference-
 
 answer: https://stackoverflow.com/questions/37240720/how-to-install-mysql2-on-ubuntu-16-04-error-error-installing-mysql2-error-f
 
-### 
+### Use the new Ruby 1.9 hash syntax. (convention:Style/HashSyntax)
+
+previous: 
+
+```
+:id => value
+```
+
+new:
+
+```
+id: value
+```
+
+see [this](https://stackoverflow.com/questions/44005410/need-to-refactor-to-the-new-ruby-1-9-hash-syntax/44005425)
