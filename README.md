@@ -48,6 +48,20 @@ ref: [this](https://stackoverflow.com/questions/20224855/what-is-the-difference-
 
 ref: [this](https://stackoverflow.com/questions/12746280/define-a-unique-primary-key-based-on-2-columns)
 
+### :destory vs :delete on Active Record
+
+The easiest way to sum it up is to use delete if you want records to be deleted quickly. However, if you care about models callbacks, referential integrity, or validations (for example, setting a criteria to not destroy a record unless a certain condition is “true”), then use destroy.
+
+- destory
+
+  1. all callbacks are called.
+  2. refererntial integrity matters (if you break the constraint, you receive the error)
+  3. validation matters (if you failed a validation, you receive the error)
+
+- delete
+
+  1. none of them above matters
+
 ## Errors
 
 ### gem install mysql2 failed on ubuntu
