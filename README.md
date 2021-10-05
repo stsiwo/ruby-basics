@@ -26,7 +26,17 @@ Bundler helps us easily specify all our project dependencies and optionally spec
 
 a Ruby packaging system designed to facilitate the creation, sharing, and installation of libraries.
 
+## Commands
 
+
+
+## Questions
+
+### diff btw 'gem install' and 'bundle install'
+
+The main difference is that Rubygems (invoked with the command gem) manages all the gems (gemsets if you are using RVM) for a single machine, whereas Bundler (bundle) manages a gem set for a single application (its purpose being to deploy on multiple machines).
+
+ref: [this](https://stackoverflow.com/questions/20224855/what-is-the-difference-between-bundle-update-and-gem-update/20224856)
 
 ## Errors
 
