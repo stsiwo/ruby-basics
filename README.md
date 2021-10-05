@@ -38,6 +38,10 @@ The main difference is that Rubygems (invoked with the command gem) manages all 
 
 ref: [this](https://stackoverflow.com/questions/20224855/what-is-the-difference-between-bundle-update-and-gem-update/20224856)
 
+### composite primary keys on table
+
+ref: [this](https://stackoverflow.com/questions/12746280/define-a-unique-primary-key-based-on-2-columns)
+
 ## Errors
 
 ### gem install mysql2 failed on ubuntu
