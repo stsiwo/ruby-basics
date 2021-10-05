@@ -54,13 +54,21 @@ The easiest way to sum it up is to use delete if you want records to be deleted 
 
 - destory
 
-  1. all callbacks are called.
+  1. all callbacks are called. (even its associations' callbacks are called)
   2. refererntial integrity matters (if you break the constraint, you receive the error)
   3. validation matters (if you failed a validation, you receive the error)
+  4. could be expensive if it has a lot of nested associations.
 
 - delete
 
   1. none of them above matters
+  2. faster & light
+
+### delete vs delete_all on Active Record
+
+same?
+
+ref: [stackoverflow](https://stackoverflow.com/questions/6698207/delete-all-vs-destroy-all)
 
 
 ref: [article on medium](https://medium.com/@wkhearn/delete-vs-destroy-does-it-even-matter-8cb4db6aa660)
