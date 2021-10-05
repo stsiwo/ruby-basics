@@ -76,6 +76,14 @@ ref: [official_api](https://api.rubyonrails.org/v6.1.4/classes/ActiveRecord/Asso
 
 ### diff btw 'dependent: destory' and 'on_XXX :cascade'
 
+1. cascade: 
+
+  faster and keep the integrity at database level
+  
+2. destroy:
+
+  destory is called on each dependent association and trigger lifecycle callbacks on the association 
+
 ref: [stackoverflow](https://stackoverflow.com/questions/12556614/rails-delete-cascade-vs-dependent-destroy)
 
 ## Errors
