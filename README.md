@@ -62,6 +62,9 @@ The easiest way to sum it up is to use delete if you want records to be deleted 
 
   1. none of them above matters
 
+
+ref: [this](https://medium.com/@wkhearn/delete-vs-destroy-does-it-even-matter-8cb4db6aa660)
+
 ## Errors
 
 ### gem install mysql2 failed on ubuntu
