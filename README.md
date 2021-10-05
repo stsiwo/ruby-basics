@@ -26,3 +26,12 @@ Bundler helps us easily specify all our project dependencies and optionally spec
 
 a Ruby packaging system designed to facilitate the creation, sharing, and installation of libraries.
 
+
+
+## Errors
+
+### gem install mysql2 failed on ubuntu
+
+answer: https://stackoverflow.com/questions/37240720/how-to-install-mysql2-on-ubuntu-16-04-error-error-installing-mysql2-error-f
+
+### 
