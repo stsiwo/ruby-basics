@@ -66,7 +66,13 @@ The easiest way to sum it up is to use delete if you want records to be deleted 
 ref: [article on medium](https://medium.com/@wkhearn/delete-vs-destroy-does-it-even-matter-8cb4db6aa660)
 ref: [official api](https://api.rubyonrails.org/v6.1.4/classes/ActiveRecord/Associations/ClassMethods.html)
 
-###
+### how to create join table when many-to-many
+
+option1) use has_and_belongs_to_many for simple case
+
+option2) create manually with migration command
+
+ref: [official_api](https://api.rubyonrails.org/v6.1.4/classes/ActiveRecord/Associations/ClassMethods.html#method-i-has_and_belongs_to_many)
 
 ## Errors
 
