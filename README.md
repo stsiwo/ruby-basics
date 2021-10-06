@@ -94,6 +94,10 @@ ref: [official_api](https://api.rubyonrails.org/v6.1.4/classes/ActiveRecord/Asso
 
 ref: [stackoverflow](https://stackoverflow.com/questions/12556614/rails-delete-cascade-vs-dependent-destroy)
 
+### when to use 'require'
+
+ref: [article](https://thoughtbot.com/blog/auto-load)
+
 ## Errors
 
 ### gem install mysql2 failed on ubuntu
