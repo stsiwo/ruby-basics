@@ -102,6 +102,14 @@ ref: [article](https://thoughtbot.com/blog/auto-load)
 
 read [this](https://blog.saeloun.com/2019/10/10/rails-6-adds-support-for-multi-environment-credentials.html)
 
+### Autoloading and Module
+
+- any directory under app/ is automatically loading so you don't need 'require'
+
+- when to use module or raw class? some classes are wrapped with module but others are not.
+
+still don't understand.
+
 ## Errors
 
 ### gem install mysql2 failed on ubuntu
