@@ -98,6 +98,10 @@ ref: [stackoverflow](https://stackoverflow.com/questions/12556614/rails-delete-c
 
 ref: [article](https://thoughtbot.com/blog/auto-load)
 
+### how credentials works in rails
+
+read [this](https://blog.saeloun.com/2019/10/10/rails-6-adds-support-for-multi-environment-credentials.html)
+
 ## Errors
 
 ### gem install mysql2 failed on ubuntu
